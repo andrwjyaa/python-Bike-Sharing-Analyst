@@ -3,15 +3,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import streamlit as st
-import matplotlib
-matplotlib.use('TkAgg')
 
 sns.set(style='dark')
 st.title("Dokumentasi Proyek Analisis Data Bike Sharing")
 # Helper function yang dibutuhkan untuk menyiapkan berbagai dataframe
 
 dataframe1 = pd.read_csv("https://raw.githubusercontent.com/andrwjyaa/python-Bike-Sharing-Analyst/641b38402f3dd38ccb2caa559fd1b930116598cc/dashboard/day.csv")
-dataframe1.head()
 
 #pertanyaan 1
 total_rentals_per_season = pd.Series([1000, 2000, 1500, 1800], index=['Spring', 'Summer', 'Fall', 'Winter'])
