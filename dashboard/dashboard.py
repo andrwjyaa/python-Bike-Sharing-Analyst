@@ -10,7 +10,7 @@ sns.set(style='dark')
 st.title("Dokumentasi Proyek Analisis Data Bike Sharing")
 # Helper function yang dibutuhkan untuk menyiapkan berbagai dataframe
 
-dataframe1 = pd.read_csv("day.csv")
+dataframe1 = pd.read_csv("https://raw.githubusercontent.com/andrwjyaa/python-Bike-Sharing-Analyst/641b38402f3dd38ccb2caa559fd1b930116598cc/dashboard/day.csv")
 dataframe1.head()
 
 #pertanyaan 1
