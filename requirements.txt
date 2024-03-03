@@ -1,9 +1,6 @@
 pandas
-seaborn
 matplotlib
-streamlit
 numpy
-os
-zipfile
-missingno
+seaborn
+streamlit
 babel
