@@ -1,0 +1,9 @@
+pandas
+seaborn
+matplotlib
+streamlit
+numpy
+os
+zipfile
+missingno
+babel
