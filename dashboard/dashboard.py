@@ -5,7 +5,6 @@ import seaborn as sns
 import streamlit as st
 import matplotlib
 matplotlib.use('TkAgg')
-from babel.numbers import format_currency
 
 sns.set(style='dark')
 st.title("Dokumentasi Proyek Analisis Data Bike Sharing")
